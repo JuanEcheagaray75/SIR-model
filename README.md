@@ -17,6 +17,14 @@ pip install scipy
 
 This is not a regular Python package, but rather a compilation of Jupyter notebooks used to explore the behavior of the SIR model. Some level of understanding of differential equations is required for a better use of this repository.
 
+If you ever need to save one of the graphs generated, do so through the `matplotlib` UI or take a screenshot, but feel free to just save the picture directly by adding this line of code right after generating said graph:
+
+```{python}
+plt.savefig('filename.png')
+```
+
+**Disclaimer 2:** Please, check the reports before changing any of the parameters used to create the graphs, make sure that you are entering reasonable values. Type checking will be implemented in the future.
+
 ## Contents
 
 Here's a brief overview of each phase of this project:
