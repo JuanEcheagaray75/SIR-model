@@ -5,7 +5,7 @@
 Run the following commands on your terminal of choice:
 
 ```{bash}
-pip insall numpy
+pip install numpy
 pip install pandas
 pip install matplotlib
 pip install scipy
